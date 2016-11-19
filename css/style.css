@@ -70,6 +70,13 @@
    }
  }
 
+ /* LARGE SCREEN */
+  @media (min-width: 1824px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
 
 /* HEADER */
 header {
