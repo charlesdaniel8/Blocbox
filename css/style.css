@@ -92,14 +92,12 @@
  }
 
 
- /* LARGE SCREEN */
-  @media (min-width: 1824px) {
+ /* TV SCREEN */
+@media tv and (min-width: 768px) and (orientation: landscape) {
    .container {
-     width: 1170px;
+      width: 750;
    }
- }
-
-
+}
 
 
 
