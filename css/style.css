@@ -45,15 +45,21 @@
 
 
 
+
+
+
+/* MEDIA QUERIES */
  @media (min-width: 768px) {
    .container {
      width: 750px;
    }
  }
+
  @media (min-width: 992px) {
    .container {
      width: 970px;
    }
+   
    .one-half {
      width:46%;
    }
@@ -63,6 +69,7 @@
    .one-fourth {
      width:21%;
    }
+
  }
  @media (min-width: 1200px) {
    .container {
@@ -70,12 +77,31 @@
    }
  }
 
+/* HERO LAPTOP */
+  @media (max-width: 768px) {
+   .hero img {
+     width: 450px;
+   }
+ }
+
+ /* NAV Logo */
+  @media (max-width: 768px) {
+   .test {
+     text-align: center;
+   }
+ }
+
+
  /* LARGE SCREEN */
   @media (min-width: 1824px) {
    .container {
      width: 1170px;
    }
  }
+
+
+
+
 
 
 /* HEADER */
@@ -94,6 +120,15 @@ header {
    text-align: right;
    float: right;
    margin: 0;
+ }
+
+ @media (max-width: 992px) {
+   header nav ul {
+      text-align: center;
+      float: none;
+      width: 100%;
+      display: block;
+   };
  }
 
 header nav ul > li {
