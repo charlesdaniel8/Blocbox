@@ -71,11 +71,14 @@
    }
 
  }
+ 
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
    }
  }
+
+
 
 /* HERO LAPTOP */
   @media (max-width: 768px) {
@@ -90,6 +93,7 @@
      text-align: center;
    }
  }
+
 
 
  /* TV SCREEN */
@@ -409,6 +413,7 @@ header .hero img {
    margin: 0 auto;
    display: block;
  }
+
 
 
  @media (min-width: 992px){
