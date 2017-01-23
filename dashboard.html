@@ -30,40 +30,37 @@
    <nav id="left-nav" class="left-nav">
      
      <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
-
      
      <div class="items">
-
        <p>Items</p>
 
        <ul>
          <li class="active"><a href="#"><i class="fa fa-th-large"></i> All Items</a></li>
-
          <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
          <li><a href="file:///Users/vesley/Desktop/Blocbox/dashboard-images.html"><i class="fa fa-picture-o"></i> Images</a></li>
          <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
        </ul>
 
        <p>Boxes</p>
+
        <ul>
          <li><a href="#"><i class="fa fa-inbox"></i> Landing Pages</a></li>
          <li><a href="#"><i class="fa fa-inbox"></i> BB Photos</a></li>
          <li><a href="#"><i class="fa fa-plus-square-o"></i> Add a new box</a></li>
        </ul>
-
      </div>
 
     <div class="settings">
      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
      <p>Joey Kirk</p>
 
-          <ul class="gear">
+          <ul class="menu-up">
             <li>
               <a href="#"><i class="fa fa-cog"></i></a>
               <ul>
-                  <li><a href="#"><i class="fa fa-file-o"></i> My Account</a></li>
-                  <li><a href="#"><i class="fa fa-picture-o"></i> Collaborators</a></li>
-                  <li><a href="#"><i class="fa fa-link"></i> Sign Out</a></li>
+                  <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+                  <li><a href="#"><i class="fa fa-users"></i> Collaborators</a></li>
+                  <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
               </ul>
             </li>
           </ul>
@@ -176,6 +173,8 @@
  <script src="js/jquery-3.1.1.min.js"></script>
  <script src="js/dropit.js"></script>
 
+
+
  <script type="text/javascript">
    $(".menu").dropit();
    $( "#menu" ).click(function() {
@@ -185,5 +184,23 @@
  </script>
 
 
+
+
+ <script type="text/javascript">
+   $(".menu-up").dropUp();
+   $( "#menu-up" ).click(function() {
+         $("#left-nav").toggleClass("open", 200);
+     });
+   $(".gear").dropUp();
+ </script>
+
+
+
+
+
+
  </body>
  </html>
+
+
+ 
